@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-11-14T03:44:06.117847+00:00",
+  "kind": "animation_rendered_from_actual_command_output",
+  "source_sha256": {
+    "tfidf_weights.py": "5b765af0159a83e46d1369a9f0b8ad3167b5b8236d86cba8d7c691a41b3e99da",
+    "example.py": "657978cc96dcc1d5aaad5330fafe8a08635e8ef1e8e768f9a3be09ac7fa9bc51",
+    "tests/test_tfidf_weights.py": "aa3465c6f785780f2c4f49aafffc84672ff1409470a60699ce02402882c9a58b"
+  },
+  "commands": [
+    {
+      "command": "python example.py",
+      "exit_code": 0,
+      "output": "Top terms from two synthetic documents (sparse CSR input)\n\nDocument 0: red fox jumps\n  jumps      0.6317\n  red        0.6317\n  fox        0.4494\n\nDocument 1: blue fox sleeps\n  blue       0.6317\n  sleeps     0.6317\n  fox        0.4494\n"
+    },
+    {
+      "command": "python -m unittest discover -s tests",
+      "exit_code": 0,
+      "output": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.002s\n\nOK\n"
+    }
+  ]
+}
